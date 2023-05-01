@@ -7,7 +7,7 @@ import authRoutes from './route/authRoutes.js';
 import categoryRoutes from "./route/categoryRoutes.js";
 import productRoutes from "./route/productRoutes.js";
 import cors from 'cors';
-import path  from path ;
+import path  from "path" ;
 import { fileURLToPath } from 'url';
 Error.stackTraceLimit = 20; // set stack trace limit to 20
 Error.prepareStackTrace = function(error, stackTrace) {
